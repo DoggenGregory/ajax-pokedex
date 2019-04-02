@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    align-self: auto;
+}
+
+
+#pokedex{
+    width: 800px;
+    height: 600px;
+    background-color: red;
+    margin: auto;
+    border-radius: 10px;
+    
+
+}   
+
+#pokeImg{
+    width: 150px;
+    height: 150px;
+
+
+}
