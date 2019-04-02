@@ -2,7 +2,9 @@ body{
     text-align: center;
     align-self: auto;
 }
-
+li{
+    list-style-type: none;
+}
 
 #pokedex{
     width: 800px;
