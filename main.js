@@ -8,7 +8,21 @@ var PicEvo ="";
 var obj = "";
 var obj2 = "";
 var gregoryus = 0;
+var x=1;
 
+
+function waNeGek(){
+  switch(x){
+    case 0:
+  document.getElementById("pokeImg").src = `${obj.sprites.front_default}`;
+    x++;
+  break;
+    case 1:
+  document.getElementById("pokeImg").src = `${obj.sprites.back_default}`;
+      x=0;
+    break;
+  }
+}
 
 function funcGregoryus(){
   gregoryus ++;
@@ -74,6 +88,7 @@ function loadDoc() {
   }
 
   function changeAll(){
+    x = 1;
     document.getElementById("idNum").innerHTML = obj.id;
     gregoryus = obj.id;
     document.getElementById("pokeImg").src = `${obj.sprites.front_default}`;
@@ -81,6 +96,7 @@ function loadDoc() {
     document.getElementById("move2").innerHTML = obj.moves[1].move.name;
     document.getElementById("move3").innerHTML = obj.moves[2].move.name;
     document.getElementById("move4").innerHTML = obj.moves[3].move.name;
+    document.getElementById("infill").value = obj.name;
     firstOfApril = obj.species.url;
     console.log(firstOfApril);
     lookup2();
@@ -96,3 +112,4 @@ function ifEvo(){
       lookup3();
     }
 }
+

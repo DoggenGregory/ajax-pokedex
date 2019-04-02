@@ -8,11 +8,18 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
 </head>
 <body>
+        <h1 id="title">Pokedex</h1>
+
     <div id="pokedex">
-        <h1 id="title"></h1>
-        <input id="infill" type="text" value="pikachu">
-        <button id="button" type="button" onclick="lookup()" >lookup</button>
-        <button id="gregoryus" type="button" onclick= "funcGregoryus()">next pokemon</button>
+        <div id="flap">
+
+            <input id="infill" type="text" value="">
+            <button id="button" type="button" onclick="lookup()" >lookup</button>
+            <button id="gregoryus" type="button" onclick= "funcGregoryus()">next pokemon</button>
+            <button id="waNeGek" type="button" onclick= "waNeGek()">rotate</button>
+
+        </div>
+        <div id="flap2">
         <p id="idNum"></p>
         <img id="pokeImg" >
         <ul>
@@ -23,6 +30,7 @@
 
         </ul>
         <img id="evoImg" >
+    </div>
     </div>   
 
 

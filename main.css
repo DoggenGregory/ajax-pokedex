@@ -1,17 +1,28 @@
 body{
     text-align: center;
     align-self: auto;
+    
 }
 li{
     list-style-type: none;
+    margin-left:-45px;
+
+}
+h1{
+    width: 800px;
+    background-color: red;
+    color :white;
+    border-radius: 15px;
+    margin :0 auto;
 }
 
 #pokedex{
     width: 800px;
-    height: 600px;
+    height: 450px;
     background-color: red;
     margin: auto;
     border-radius: 10px;
+    display: flex;
     
 
 }   
@@ -20,5 +31,29 @@ li{
     width: 150px;
     height: 150px;
 
+
+}
+#flap{
+    width: 140px;
+    flex-flow: column;
+}
+button{
+    width: 120px;
+    height: 35px;
+    margin : 35px;
+    border-radius: 10px;
+}
+input{
+    width: 120px;
+    height: 50px;
+    margin : 35px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    border: gainsboro solid 10px;
+    color :greenyellow;
+    font-weight: 800; 
+}
+#flap2{
+    margin : 20px auto;
 
 }
